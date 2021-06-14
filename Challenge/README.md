@@ -13,11 +13,11 @@ Refactoring simplified the code and decrease calculation time while retaining th
 
 First, the two loops were condensed into one loop through the use of an Index variable.  This variable was set to 0 at the onset and stood as a placeholder for the ticker array numbers (0-11).  
 
-![VBA_Challenge_code2](VBA_Challenge_code1.png)
+![VBA_Challenge_code_1](VBA_Challenge_code_1.png)
 
 After the loop performed the volume and return calculations for a given ticker array number, the loop added 1 to the Index so that the next iteration would perform the calculations for the next ticker array number. 
 
-![VBA_Challenge_code2](VBA_Challenge_code2.png)
+![VBA_Challenge_code_2](VBA_Challenge_code_2.png)
 
 ## Summary
 Refactoring the code can have a few disadvantages such as causing the code to break or even making the code take longer to run.  Perhaps too, the code could be easier to follow because their are more steps. On the other hand, advantages include creating code that runs more efficiently and is simplified.  Refactoring the code also can enable the system to handle more data without crashing.
